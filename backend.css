@@ -1,0 +1,27 @@
+header
+{
+    border: 6pt;
+    border-style: dotted;
+    border-color: rgb(240, 96, 0);
+    margin: 100px 100px 100px 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+body
+{
+    background-image: url(imagenes/rainbow.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#isa
+{
+    margin: 100px 100px 100px 400px;;
+}
+
+p
+{
+    font-size: x-large;
+}
