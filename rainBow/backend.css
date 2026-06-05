@@ -1,0 +1,63 @@
+header
+{
+    border-radius: 120px;
+    border: 6pt;
+    border-style: double;
+    border-color: rgb(240, 96, 0);
+    margin: 100px 100px 100px 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+body
+{
+    font-size: 14px;
+    padding: 10px;
+    background-image: url(imagenes/rainbow.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#isa
+{
+    margin: 100px 100px 100px 100px;;
+}
+
+p
+{
+    font-size: x-large;
+}
+
+#enlace
+{
+    text-align: center;
+}
+
+#harry
+{
+    font-size: x-large;
+    font-style: oblique;
+    border-color: brown;
+    border-style: ridge;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+@media (min-width: 768px)
+{
+    body
+    {
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .contenedor
+    {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

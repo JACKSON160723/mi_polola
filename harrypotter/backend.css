@@ -1,0 +1,64 @@
+header
+{
+    border-radius: 120px;
+    border: 6pt;
+    border-style: double;
+    border-color: rgb(240, 96, 0);
+    margin: 100px 100px 100px 100px;
+    padding: 10px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body
+{
+    font-size: 14px;
+    padding: 10px;
+    background-image: url(/harrypotter/imagenes/castle.webp);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    font-size: x-large;
+    text-align: center;
+}
+
+#enlace
+{
+    text-align: center;
+}
+
+#rainbow
+{
+    font-size: x-large;
+    font-style: oblique;
+    border-style: ridge;
+    border-color: rgb(191, 197, 99);
+    border-radius: 202px;
+    padding: 2%;
+}
+
+@media (min-width: 768px)
+{
+    body
+    {
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .contenedor
+    {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
