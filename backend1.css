@@ -14,7 +14,7 @@ body
 {
     font-size: 14px;
     padding: 10px;
-    background-image: url(/harrypotter/imagenes/castle.webp);
+    background-image: url(imagenes/castle.webp);
     background-position: center center;
     background-attachment: fixed;
 }
