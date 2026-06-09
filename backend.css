@@ -44,6 +44,15 @@ p
     padding: 2%;
 }
 
+video
+{
+    max-width: 100%; /* El video nunca será más grande que la pantalla del celular */
+    height: auto;     /* Mantiene la proporción para que no se estire feo */
+    display: block;
+    margin: 0 auto;   /* Opcional: lo centra en la pantalla */
+}
+
+
 /* Estilos normales para computadora van aquí arriba */
 
 /* --- Estilos para Celulares --- */
