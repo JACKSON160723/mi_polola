@@ -44,20 +44,21 @@ p
     padding: 2%;
 }
 
-@media (min-width: 768px)
-{
-    body
-    {
-        font-size: 16px;
-        padding: 20px;
-    }
-}
+/* Estilos normales para computadora van aquí arriba */
 
-@media (min-width: 1024px)
+/* --- Estilos para Celulares --- */
+@media (max-width: 768px)
 {
-    .contenedor
+body
     {
-        max-width: 1200px;
-        margin: 0 auto;
+        font-size: 16px; /* Ajusta el texto para que sea legible */
+    }
+
+    /* Si tenías elementos en columnas (uno al lado del otro), 
+        aquí puedes hacer que se pongan uno abajo del otro */
+    .contenedor-principal
+    {
+        flex-direction: column; 
+        width: 100%; /* Que ocupe todo el ancho de la pantalla */
     }
 }
