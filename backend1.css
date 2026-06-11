@@ -37,12 +37,40 @@ p
 
 #rainbow
 {
+    background-color: aliceblue;
+    border-color: rgb(76, 168, 253);
+    color: rgb(221, 20, 104);
     font-size: x-large;
     font-style: oblique;
     border-style: ridge;
-    border-color: rgb(191, 197, 99);
     border-radius: 202px;
     padding: 2%;
+    text-decoration: none;
+}
+
+#harry-broom
+{
+    text-align: center;
+}
+
+#potter-broom
+{
+    width: 40%;
+}
+
+#XD
+{
+    width: 40%;
+}
+
+.oculto
+{
+    display: none;
+}
+
+#btnCambiar
+{
+    padding: 1%;
 }
 
 /* Estilos normales para computadora van aquí arriba */
